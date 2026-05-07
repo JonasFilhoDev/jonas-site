@@ -28,7 +28,7 @@ export default function Sobre() {
           <p className={styles.p}>
             Nascido em Taboão da Serra (SP), atualmente morando em Minas Gerais.
             Sou um desenvolvedor em formação, apaixonado por tecnologia e fã de
-            esportes — e sim, sou Corinthiano! 🖤🤍
+            esportes! 🖤🤍
           </p>
           <p className={styles.p}>
             Cursando Ciências da Computação pela Universidade Pitágoras Unopar
