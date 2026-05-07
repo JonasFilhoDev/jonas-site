@@ -1,0 +1,35 @@
+:root {
+  --bg: #0d0d0f;
+  --bg2: #141418;
+  --bg3: #1a1a20;
+  --accent: #8a2be2;
+  --accent-light: #a855f7;
+  --accent2: #ff6b35;
+  --accent3: #f5c542;
+  --text: #e8e8f0;
+  --muted: #888899;
+  --border: #2a2a35;
+  --card: #16161c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Syne', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
