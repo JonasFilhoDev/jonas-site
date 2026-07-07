@@ -28,7 +28,7 @@ export default function Hero() {
         </h1>
 
         <p className={styles.sub}>
-          Desenvolvedor FullStack, apaixonado por criar
+          Desenvolvedor FullStack em formação, apaixonado por criar
           soluções digitais que fazem a diferença.
         </p>
 
