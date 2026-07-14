@@ -28,7 +28,7 @@ export default function Hero() {
         </h1>
 
         <p className={styles.sub}>
-          Desenvolvedor FullStack em formação, apaixonado por criar
+          Desenvolvedor FullStack, apaixonado por criar
           soluções digitais que fazem a diferença.
         </p>
 
@@ -38,7 +38,7 @@ export default function Hero() {
           </button>
           <a
             className={styles.btnOutline}
-            href="https://wa.me/5533999367207?text=Olá Jonas, vi sua página e gostaria de saber mais sobre seu portfólio!"
+            href="https://wa.me/5533999367207?text=Olá Jonas, vi sua página e gostaria de saber mais sobre seu trabalho!"
             target="_blank"
             rel="noreferrer"
           >
