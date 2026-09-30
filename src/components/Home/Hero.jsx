@@ -3,7 +3,7 @@ import styles from './Hero.module.css'
 const sociais = [
   { emoji: '💼', href: 'https://www.linkedin.com/in/jonasfilhodev/', label: 'LinkedIn' },
   { emoji: '🐙', href: 'https://github.com/JonasFilhoDev', label: 'GitHub' },
-  { emoji: '📷', href: 'https://www.instagram.com/mutleyone/', label: 'Instagram' },
+  { emoji: '📷', href: 'https://www.instagram.com/jonasfilhodev/', label: 'Instagram' },
   { emoji: '✉️', href: 'mailto:jonasfilho1985@gmail.com', label: 'Email' },
   { emoji: '🏅', href: 'https://www.credly.com/users/jonas-filho.02d00765', label: 'Credly' },
   { emoji: '💬', href: 'https://wa.me/5533999367207?text=Olá Jonas, vi sua página e gostaria de saber mais sobre seu portfólio!', label: 'WhatsApp' },

@@ -5,7 +5,7 @@ const canais = [
   { emoji: '🐙', label: 'GitHub',    val: 'JonasFilhoDev',            href: 'https://github.com/JonasFilhoDev' },
   { emoji: '✉️', label: 'Email',     val: 'jonasfilho1985@gmail.com', href: 'mailto:jonasfilho1985@gmail.com' },
   { emoji: '📲', label: 'WhatsApp',  val: 'Enviar mensagem',          href: 'https://wa.me/5533999367207?text=Olá Jonas, vi sua página e gostaria de saber mais sobre seu portfólio!' },
-  { emoji: '📷', label: 'Instagram', val: '@mutleyone',               href: 'https://www.instagram.com/mutleyone/' },
+  { emoji: '📷', label: 'Instagram', val: '@jonasfilhodev',           href: 'https://www.instagram.com/jonasfilhodev/' },
   { emoji: '🏅', label: 'Credly',    val: 'Certificações',            href: 'https://www.credly.com/users/jonas-filho.02d00765' },
 ]
 
