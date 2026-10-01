@@ -6,17 +6,17 @@ por ancora devolve sempre o topo. Aqui a pagina inteira e capturada uma vez e
 cortada pelas posicoes reais das secoes, medidas no DOM antes (ver
 `posicoes.json`, gerado pelo browser).
 
-Uso: recortar_telas.py <posicoes.json> <largura> <altura-viewport> <nome>
+Uso: recortar_telas.py <posicoes.json> <largura> <altura-viewport> <nome> [url]
 """
 import subprocess, sys, json, pathlib
 from PIL import Image
 
 CHROME = pathlib.Path.home() / ".hermes/tools/chromium-1208/chrome-linux/chrome"
-ROOT = pathlib.Path("/home/ubuntu/jonas-site-v2")
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHOTS = ROOT / "preview"
 SHOTS.mkdir(exist_ok=True)
 
-BASE = "http://localhost:4173/"
+BASE = sys.argv[5] if len(sys.argv) > 5 else "http://localhost:4173/"
 
 pos_file = pathlib.Path(sys.argv[1])
 W = int(sys.argv[2])

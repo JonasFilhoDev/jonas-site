@@ -3,7 +3,7 @@
 import subprocess, sys, pathlib, time, json
 
 CHROME = pathlib.Path.home() / ".hermes/tools/chromium-1208/chrome-linux/chrome"
-ROOT = pathlib.Path("/home/ubuntu/jonas-site-v2")
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHOTS = ROOT / "preview"
 SHOTS.mkdir(exist_ok=True)
 

@@ -1,81 +1,128 @@
-# Jonas Filho Dev — Portfólio
+# Jonas Filho Dev — portfólio
 
-Portfólio pessoal construído com **React + Vite**, dark mode com roxo `#8a2be2`.
+Site pessoal de **Jonas Francisco de Lima Filho**, desenvolvedor FullStack. Está no ar em
+[jonasfilho.dev.br](https://jonasfilho.dev.br/), servido pela Vercel a partir deste
+repositório.
 
-## 🚀 Instalação local
+Uma página, sete seções: hero, projetos, como eu trabalho, sobre, contato e rodapé. O
+objetivo do conteúdo é o mesmo do site: mostrar sistemas que rodam de verdade, com o
+problema e as decisões técnicas antes da lista de tecnologias.
+
+---
+
+## Stack
+
+| Camada        | Escolha                                                        |
+|---------------|----------------------------------------------------------------|
+| Framework     | React 18                                                        |
+| Build         | Vite 5                                                          |
+| Estilo        | CSS puro com **CSS Modules** (`*.module.css` por componente)    |
+| Ícones        | SVG inline em `src/components/Icon.jsx`, sem biblioteca        |
+| Fonte         | Bricolage Grotesque, Instrument Sans e JetBrains Mono (Google Fonts) |
+| Hospedagem    | Vercel, com build automático a cada push na `master`            |
+
+Não há biblioteca de interface, CSS framework nem step de configuração. O site inteiro
+são ~1.575 linhas entre JSX, JS e CSS, e `npm run build` produz a pasta `dist/`.
+
+## Rodando localmente
 
 ```bash
-# 1. Instale as dependências
 npm install
-
-# 2. Rode o servidor de desenvolvimento
-npm run dev
-
-# 3. Abra no navegador
-# http://localhost:5173/Minha-Pagina/
+npm run dev       # http://localhost:5173
 ```
-
-## 📦 Build para produção
 
 ```bash
-npm run build
+npm run build     # gera dist/
+npm run preview   # serve dist/ localmente, como a Vercel faz
 ```
 
-Os arquivos de produção ficam na pasta `dist/`.
+`vite.config.js` deixa `host` e `allowedHosts` abertos para o servidor de desenvolvimento
+ser acessível de outros dispositivos da rede.
 
-## 🌐 Deploy no GitHub Pages
-
-### Opção 1 — Manual (mais simples)
-
-```bash
-# 1. Gere o build
-npm run build
-
-# 2. Copie o conteúdo de dist/ para a raiz do repositório
-#    ou configure o GitHub Pages para servir a pasta dist/
-```
-
-### Opção 2 — Automático com gh-pages
-
-```bash
-# 1. Instale o pacote
-npm install --save-dev gh-pages
-
-# 2. Adicione no package.json, dentro de "scripts":
-"deploy": "gh-pages -d dist"
-
-# 3. Para fazer deploy:
-npm run build && npm run deploy
-```
-
-Depois, no GitHub:
-- Acesse **Settings > Pages**
-- Em **Source**, selecione a branch `gh-pages`
-- Salve — o site estará em `https://jonasfilhodev.github.io/Minha-Pagina/`
-
-## 📁 Estrutura
+## Estrutura
 
 ```
+index.html              metadados, Open Graph, JSON-LD (Person) e as fontes
 src/
-├── main.jsx          # Entry point
-├── App.jsx           # Componente raiz
-├── index.css         # Variáveis globais CSS
+├── main.jsx            ponto de entrada
+├── App.jsx             monta a ordem das seções
+├── data.js             número do WhatsApp, links do menu e função waLink()
+├── index.css           variáveis de cor, tipografia base e reset
 └── components/
-    ├── Navbar.jsx / .module.css
-    ├── Hero.jsx   / .module.css
-    ├── Sobre.jsx  / .module.css
-    ├── Skills.jsx / .module.css
-    ├── Projetos.jsx / .module.css
-    ├── Contato.jsx  / .module.css
-    └── Footer.jsx   / .module.css
+    ├── Icon.jsx        ícones SVG por nome
+    ├── Nav/            cabeçalho fixo com marca, menu e CTA
+    ├── Hero/           nome, disponibilidade, Botões e redes sociais
+    ├── Projetos/       cards de problema, solução, decisões e stack
+    ├── Processo/       as três decisões de trabalho que se repetem
+    ├── Sobre/          texto, foto e a lista de fatos (formação, stack, curso)
+    ├── Contato/        canais com link direto
+    └── Rodape/         crédito e volta ao topo
+public/
+├── brand/jf-dev.png    logo com fundo transparente (gerado por script)
+├── assets/logo.png     logo original
+├── img/jonas.jpg       foto de capa
+├── og.png              imagem 1200x630 para compartilhamento
+└── favicon.svg
+scripts/                scripts Python que préparam as imagens do site
 ```
 
-## 🎨 Cores principais
+Cada componente tem seu próprio arquivo `.jsx` e seu `.module.css`. O CSS global só
+carrega variáveis, tipografia e reset; todo o resto é escopado pelo nome do módulo.
 
-| Variável       | Cor        | Uso                        |
-|----------------|------------|----------------------------|
-| `--accent`     | `#8a2be2`  | Roxo principal (original)  |
-| `--accent-light`| `#a855f7` | Hover do roxo              |
-| `--accent2`    | `#ff6b35`  | Laranja (detalhe)          |
-| `--bg`         | `#0d0d0f`  | Fundo principal            |
-| `--text`       | `#e8e8f0`  | Texto principal            |
+## Identidade visual
+
+A paleta é marinho e terracota sobre papel quente, e não a paleta roxa da primeira versão
+do portfólio. Tudo está em variáveis no `src/index.css`:
+
+| Variável         | Valor                      | Uso                              |
+|------------------|----------------------------|----------------------------------|
+| `--ink`          | `#0c223b`                  | marinho da marca, títulos        |
+| `--paper`        | `#f4f2ec`                  | fundo, um papel quente           |
+| `--card`         | `#fbfaf6`                  | superfície dos cards              |
+| `--accent`       | `#c2503c`                  | terracota, único acento          |
+| `--text`         | `#14202e`                  | corpo de texto                    |
+| `--muted`        | `#5d6b78`                  | texto secundário                 |
+| `--line`         | `#d9d3c6`                  | bordas                            |
+| `--maxw`         | `1120px`                   | largura máxima do conteúdo        |
+
+O `index.css` também trata `prefers-reduced-motion`, e o corpo usa
+`-webkit-font-smoothing: antialiased`.
+
+## SEO
+
+O `index.html` carrega o que o site precisa para ser indexado e compartilhado: `title` e
+`description` com os termos que a busca usa, `canonical`, Open Graph completo
+(imagem 1200x630 em `og.png`), `twitter:card` e um bloco JSON-LD do tipo `Person` com
+`alumniOf`, `knowsAbout` e os perfis `sameAs`.
+
+## Imagens e capturas
+
+Os PNGs de `public/` e as capturas de revisão são gerados por script, não desenhados à
+mão:
+
+| Script                  | O que faz                                                              |
+|-------------------------|------------------------------------------------------------------------|
+| `scripts/preparar_marca.py` | Tira o branco do interior do logo e deixa `brand/jf-dev.png` com transparência |
+| `scripts/gerar_og.py`   | Monta o `og.png` (1200x630) em HTML/CSS e renderiza no Chromium headless |
+| `scripts/capturar_telas.py` | Captura a página em desktop e mobile para comparação                 |
+| `scripts/recortar_telas.py` | Corta a página inteira em uma imagem por seção, pelas posições medidas no DOM |
+| `scripts/recortar_header.py` | Recorta o cabeçalho e seções escolhidas                            |
+
+Os scripts usam o Chromium headless em `~/.hermes/tools/chromium-1208/` e o Pillow, e
+esperam rodar neste host. O caminho da pasta do projeto é resolvido a partir do próprio
+script, então mover o repositório não quebra nada. `recortar_telas.py` usa
+`http://localhost:4173/` por padrão e aceita uma URL como quinto argumento. As capturas de
+`preview/` são locais e estão no `.gitignore`.
+
+## Publicação
+
+O domínio está ligado à Vercel: cada push na `master` dispara o build e o site sai no ar
+com o hash do asset no nome do arquivo, o que resolve cache sem configuração. Não há
+`vercel.json` — a configuração do projeto é o padrão do Vite.
+
+---
+
+**Jonas Francisco de Lima Filho** — [jonasfilho.dev.br](https://jonasfilho.dev.br) ·
+[GitHub](https://github.com/JonasFilhoDev) ·
+[LinkedIn](https://www.linkedin.com/in/jonasfilhodev) ·
+[Instagram](https://www.instagram.com/jonasfilhodev)
