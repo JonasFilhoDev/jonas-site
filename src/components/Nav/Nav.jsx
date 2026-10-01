@@ -7,7 +7,13 @@ export default function Nav() {
     <header className={styles.wrap}>
       <nav className={styles.nav}>
         <a href="#home" className={styles.brand}>
-          <span className={styles.mark}>JF</span>
+          <img
+            className={styles.mark}
+            src="/brand/jf-dev.png"
+            alt="JF Dev"
+            width="164"
+            height="153"
+          />
           <span className={styles.brandText}>
             Jonas Filho
             <em>Desenvolvedor FullStack</em>

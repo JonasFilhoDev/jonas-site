@@ -5,7 +5,7 @@ export default function Rodape() {
     <footer className={styles.foot}>
       <div className={styles.inner}>
         <p className={styles.copy}>
-          © {new Date().getFullYear()} Jonas Filho Dev — feito com React e
+          © {new Date().getFullYear()} Jonas Filho Dev. Feito com React e
           deploy no ar.
         </p>
         <a

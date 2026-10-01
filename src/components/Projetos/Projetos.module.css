@@ -178,6 +178,15 @@
   background: var(--paper-2);
 }
 
+.nota {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
 .more {
   display: flex;
   align-items: center;

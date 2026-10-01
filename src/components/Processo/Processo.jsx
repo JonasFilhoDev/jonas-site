@@ -4,7 +4,7 @@ const etapas = [
   {
     n: '01',
     t: 'Entendo o problema antes de escolher a ferramenta',
-    d: 'Qualquer projeto começa por saber o que precisa acontecer, não por decidir se uso React ou CSS. A escolha da stack é consequência da restrição — volume de dados, quem vai manter, o que já existe rodando.',
+    d: 'Qualquer projeto começa por saber o que precisa acontecer, não por decidir se uso React ou CSS. A escolha da stack é consequência da restrição: volume de dados, quem vai manter, o que já existe rodando.',
   },
   {
     n: '02',

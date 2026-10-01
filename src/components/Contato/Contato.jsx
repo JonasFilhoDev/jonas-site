@@ -45,8 +45,8 @@ export default function Contato() {
         </h2>
         <p className={styles.sub}>
           Prefiro WhatsApp, mas qualquer canal funciona. Se você tem um
-          problema técnico em mente, escreva o que ele é em uma frase — é mais
-          útil para mim do que um currículo.
+          problema técnico em mente, escreva o que ele é em uma frase. Para mim
+          vale mais do que um currículo.
         </p>
 
         <ul className={styles.channels}>

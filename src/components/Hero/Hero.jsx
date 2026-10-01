@@ -38,8 +38,8 @@ export default function Hero() {
 
         <p className={styles.lead}>
           Sou Jonas Filho, desenvolvedor FullStack. Meu trabalho está em{' '}
-          <a href="#projetos">projetos que rodam no ar</a> — com banco de dados,
-          autenticação e publicação automatizada — e não em exercícios de
+          <a href="#projetos">projetos que rodam no ar</a>, com banco de dados,
+          autenticação e publicação automatizada, em vez de exercícios de
           curso. Escolhi Node, React e PostgreSQL porque é o que aparece quando
           a feature precisa funcionar fora do meu computador.
         </p>

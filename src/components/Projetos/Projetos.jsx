@@ -29,13 +29,13 @@ const projetos = [
     nome: 'DevBurguer',
     kicker: 'e-commerce fullstack · no ar',
     problema:
-      'Um projeto de curso que eu levei além do enunciado: uma loja completa, com cadastro de usuário, catálogo, carrinho e pagamento — não só a parte visual que o exercício pede.',
+      'Um projeto de curso que eu levei além do enunciado: uma loja completa, com cadastro de usuário, catálogo, carrinho e pagamento, e não só a parte visual que o exercício pede.',
     solucao:
       'Duas bases separadas. A interface em React com Material UI, validação de formulário, carrousel de categorias e checkout com Stripe. A API em Node e Express, com duas camadas de banco (MongoDB por Mongoose e Postgres por Sequelize), autenticação JWT, upload de imagem em Cloudinary e tratamento de erro.',
     decisoes: [
       'API separada da interface, com contrato definido entre as duas',
       'Token JWT com middlewares de autenticação e de perfil de administrador',
-      'Upload de imagem resolvido depois de três tentativas — o registro do que deu errado está no histórico de commits',
+      'Upload de imagem resolvido depois de três tentativas. O registro do que deu errado está no histórico de commits',
     ],
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'Stripe'],
     links: [
@@ -67,7 +67,13 @@ const projetos = [
       'Componentes de formulário separados da regra de negócio',
     ],
     stack: ['TypeScript', 'PostgreSQL', 'React', 'shadcn/ui'],
-    links: [],
+    links: [
+      {
+        label: 'Ver o código',
+        href: 'https://github.com/JonasFilhoDev/inventory-genius-32',
+      },
+    ],
+    nota: 'Começou como um projeto gerado com Lovable e refiz a parte de dados. É o que mais usei TypeScript até agora.',
   },
 ]
 
@@ -138,6 +144,8 @@ export default function Projetos() {
                     ))}
                   </div>
                 )}
+
+                {p.nota && <p className={styles.nota}>{p.nota}</p>}
               </div>
             </article>
           ))}
