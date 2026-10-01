@@ -104,6 +104,19 @@
   font-weight: 600;
 }
 
+.factLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 1px;
+  transition: color 0.15s;
+}
+
+.factLink:hover {
+  color: var(--accent);
+}
+
 @media (max-width: 860px) {
   .section {
     padding: 4.25rem 1.25rem;

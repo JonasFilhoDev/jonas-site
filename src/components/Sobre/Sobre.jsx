@@ -1,10 +1,16 @@
+import { Icon } from '../Icon'
 import styles from './Sobre.module.css'
 
 const fatos = [
   { k: 'Onde', v: 'Minas Gerais' },
   { k: 'Formação', v: 'Faculdade Pitágoras Anhanguera Unopar' },
-  { k: 'Estudo', v: 'DevClub' },
   { k: 'Curso', v: 'Ciências da Computação' },
+  { k: 'Estudo', v: 'DevClub' },
+  {
+    k: 'Certificações',
+    v: 'Credly',
+    href: 'https://www.credly.com/users/jonas-filho.02d00765',
+  },
   { k: 'Stack', v: 'Node · React · TypeScript' },
 ]
 
@@ -38,7 +44,21 @@ export default function Sobre() {
             {fatos.map((f) => (
               <div key={f.k} className={styles.fact}>
                 <dt>{f.k}</dt>
-                <dd>{f.v}</dd>
+                <dd>
+                  {f.href ? (
+                    <a
+                      className={styles.factLink}
+                      href={f.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {f.v}
+                      <Icon name="external" size={13} />
+                    </a>
+                  ) : (
+                    f.v
+                  )}
+                </dd>
               </div>
             ))}
           </dl>
