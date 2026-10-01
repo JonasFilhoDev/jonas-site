@@ -1,15 +1,25 @@
 :root {
-  --bg: #0d0d0f;
-  --bg2: #141418;
-  --bg3: #1a1a20;
-  --accent: #8a2be2;
-  --accent-light: #a855f7;
-  --accent2: #ff6b35;
-  --accent3: #f5c542;
-  --text: #e8e8f0;
-  --muted: #888899;
-  --border: #2a2a35;
-  --card: #16161c;
+  /* base — marinho da marca JF */
+  --ink: #0c223b;
+  --ink-2: #14314f;
+  --ink-3: #1d3f61;
+
+  /* papel — fundo quente, não o quase-preto padrão */
+  --paper: #f4f2ec;
+  --paper-2: #ebe7dd;
+  --card: #fbfaf6;
+
+  /* acento único: terracota */
+  --accent: #c2503c;
+  --accent-soft: rgba(194, 80, 60, 0.1);
+
+  /* texto */
+  --text: #14202e;
+  --muted: #5d6b78;
+  --line: #d9d3c6;
+
+  --maxw: 1120px;
+  --radius: 4px;
 }
 
 * {
@@ -20,16 +30,51 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  font-family: 'Syne', sans-serif;
-  background: var(--bg);
+  font-family: 'Instrument Sans', system-ui, sans-serif;
+  background: var(--paper);
   color: var(--text);
   overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 800;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

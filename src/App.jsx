@@ -1,23 +1,23 @@
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Home/Hero'
-import Sobre from './components/About/Sobre'
-import Skills from './components/Skills/Skills'
-import Projetos from './components/Projects/Projetos'
-import Contato from './components/Contact/Contato'
-import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav'
+import Hero from './components/Hero/Hero'
+import Projetos from './components/Projetos/Projetos'
+import Processo from './components/Processo/Processo'
+import Sobre from './components/Sobre/Sobre'
+import Contato from './components/Contato/Contato'
+import Rodape from './components/Rodape/Rodape'
 
-function App() {
+export default function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Sobre />
-      <Skills />
-      <Projetos />
-      <Contato />
-      <Footer />
+      <Nav />
+      <main>
+        <Hero />
+        <Projetos />
+        <Processo />
+        <Sobre />
+        <Contato />
+      </main>
+      <Rodape />
     </>
   )
 }
-
-export default App

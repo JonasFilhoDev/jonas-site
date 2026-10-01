@@ -3,3 +3,6 @@ dist
 .env
 .env.local
 .DS_Store
+
+# capturas de revisao local, nao vao para o repositorio
+preview/

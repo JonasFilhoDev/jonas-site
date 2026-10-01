@@ -1,0 +1,40 @@
+.foot {
+  background: var(--ink);
+  color: rgba(244, 242, 236, 0.45);
+  border-top: 1px solid rgba(244, 242, 236, 0.12);
+}
+
+.inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.copy {
+  font-size: 0.82rem;
+}
+
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  font-size: 0.82rem;
+  font-family: 'JetBrains Mono', monospace;
+  transition: color 0.15s;
+}
+
+.top:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .inner {
+    padding: 1.35rem 1.25rem;
+  }
+}
