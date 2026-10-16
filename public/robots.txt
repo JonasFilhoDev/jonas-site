@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Site de uma pagina publica, sem area restrita.
+# CSS, JS e imagens ficam liberados de proposito: o Googlebot precisa deles
+# para renderizar a pagina, que e uma aplicacao React.
+
+Sitemap: https://jonasfilho.dev.br/sitemap.xml
