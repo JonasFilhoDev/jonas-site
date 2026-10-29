@@ -27,6 +27,14 @@ const canais = [
     externo: true,
   },
   {
+    icon: 'download',
+    nome: 'Currículo',
+    valor: 'PDF, 2 páginas',
+    href: '/cv-jonas-filho.pdf',
+    externo: false,
+    download: 'cv-jonas-filho.pdf',
+  },
+  {
     icon: 'github',
     nome: 'GitHub',
     valor: 'JonasFilhoDev',
@@ -52,7 +60,12 @@ export default function Contato() {
         <ul className={styles.channels}>
           {canais.map((c) => (
             <li key={c.nome}>
-              <a href={c.href} target={c.externo ? '_blank' : undefined} rel="noreferrer">
+              <a
+                href={c.href}
+                target={c.externo ? '_blank' : undefined}
+                rel="noreferrer"
+                download={c.download}
+              >
                 <span className={styles.chIcon}>
                   <Icon name={c.icon} size={19} />
                 </span>
