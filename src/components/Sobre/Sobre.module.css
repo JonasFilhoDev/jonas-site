@@ -38,13 +38,6 @@
   filter: grayscale(0) contrast(1);
 }
 
-.photoNote {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin-top: 0.85rem;
-  line-height: 1.5;
-}
-
 .text {
   max-width: 62ch;
 }
