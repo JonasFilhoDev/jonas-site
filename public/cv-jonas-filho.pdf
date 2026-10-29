@@ -1,0 +1,803 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 13 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/XObject <<
+/FormXob.097985cfe0e109531c4985bcf3858e1f 6 0 R
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d 8 0 R
+>>
+/Font <<
+/F1 10 0 R
+/F1-0 11 0 R
+/F2 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6569
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 743.8898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 4 Tm /F2 24 Tf 28 TL 44.2458 0 Td (Jonas Francisco de Lima Filho) Tj T* -44.2458 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 731.8898 cm
+Q
+q
+1 0 0 1 78 675.0898 cm
+q
+BT 1 0 0 1 0 46.8 Tm 14.2 TL /F1 10 Tf .133333 .133333 .133333 rg (Desenvolvedor FullStack \267 Node, React, TypeScript, PostgreSQL e automa\347\343o com IA) Tj  T* (Minas Gerais, Brasil \267 \(33\) 99936-7207 \267 jonasfilho1985@gmail.com) Tj  T* (jonasfilho.dev.br \267 github.com/JonasFilhoDev \267 linkedin.com/in/jonasfilhodev) Tj  T* (Atualizado em outubro de 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 668.0898 cm
+Q
+q
+1 0 0 1 78 640.0898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Resumo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 635.0898 cm
+Q
+q
+1 0 0 1 78 564.0898 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 61 Tm /F1 10 Tf 14.2 TL 4.691559 Tw (Desenvolvedor FullStack com sistemas pr\363prios em produ\347\343o: portal interno com deploy) Tj T* 0 Tw 2.595054 Tw (automatizado, e-commerce completo e automa\347\365es com agentes de IA rodando em servidor) Tj T* 0 Tw 1.04043 Tw (pr\363prio. Somo 18 anos de experi\352ncia profissional em log\355stica, varejo, atendimento ao cliente e) Tj T* 0 Tw 1.542966 Tw (desenvolvimento, e essa bagagem aparece no jeito de construir software: entender o requisito,) Tj T* 0 Tw (colocar no ar e verificar que o que subiu \351 o que foi testado. Cursando Ci\352ncia da Computa\347\343o.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 557.0898 cm
+Q
+q
+1 0 0 1 78 529.0898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Projetos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 524.0898 cm
+Q
+q
+1 0 0 1 78 481.4898 cm
+q
+BT 1 0 0 1 0 32.6 Tm 1.987781 Tw 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Central de Opera\347\365es) Tj /F1 10 Tf ( \227 portal interno em produ\347\343o que recebe publica\347\365es automatizadas,) Tj T* 0 Tw .532682 Tw (indexa cada atividade e mant\351m o hist\363rico do que foi feito, com nginx, TLS e valida\347\343o antes do) Tj T* 0 Tw (deploy. Vitrine p\372blica em jonasfilhodev.github.io/central_operacoes_demo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 474.4898 cm
+Q
+q
+1 0 0 1 78 431.8898 cm
+q
+BT 1 0 0 1 0 32.6 Tm 1.732133 Tw 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Agente de automa\347\343o) Tj /F1 10 Tf ( \227 agente com ferramentas pr\363prias de arquivo, terminal, navegador e) Tj T* 0 Tw .341299 Tw (APIs externas, mem\363ria entre sess\365es e procedimentos carregados por tarefa. Mant\351m 22 rotinas) Tj T* 0 Tw (agendadas no ar, com 179 publica\347\365es registradas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 424.8898 cm
+Q
+q
+1 0 0 1 78 382.2898 cm
+q
+BT 1 0 0 1 0 32.6 Tm .373971 Tw 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Pipeline de conte\372do) Tj /F1 10 Tf ( \227 transforma um tema em pe\347a publicada: roteiro no modelo, imagem por) Tj T* 0 Tw 2.75043 Tw (API de difus\343o, verifica\347\343o por pixel antes de publicar, narra\347\343o sintetizada e v\355deo vertical) Tj T* 0 Tw (montado por linha de comando. Custo medido de US$ 0,03 por imagem gerada.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 375.2898 cm
+Q
+q
+1 0 0 1 78 332.6898 cm
+q
+BT 1 0 0 1 0 32.6 Tm .760466 Tw 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (DevBurguer) Tj /F1 10 Tf ( \227 e-commerce full stack com cadastro, cat\341logo, carrinho e checkout. Interface em) Tj T* 0 Tw .047849 Tw (React com Material UI e API em Node e Express, com autentica\347\343o JWT, duas camadas de banco) Tj T* 0 Tw (e upload de imagem. Interface em projeto-dev-burguer-interface.vercel.app.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 325.6898 cm
+Q
+q
+1 0 0 1 78 297.2898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 3.80869 Tw 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Inventory Genius) Tj /F1 10 Tf ( \227 controle de estoque em TypeScript e PostgreSQL, com modelagem) Tj T* 0 Tw (relacional de produto, material e o v\355nculo entre os dois, interface em shadcn/ui sobre React.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 290.2898 cm
+Q
+q
+1 0 0 1 78 262.2898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Experi\352ncia) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 257.2898 cm
+Q
+q
+1 0 0 1 78 228.8898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (JF Dev \227 Desenvolvedor FullStack \(freelance\)) Tj /F1 10 Tf  T* (12/2025 \226 atual) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 221.8898 cm
+Q
+q
+1 0 0 1 78 193.8898 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 18 Tm /F1 10 Tf 14 TL .5 0 Td (Desenvolvimento dos sistemas pr\363prios descritos acima, do modelo de dados ao deploy, com) Tj T* -0.5 0 Td (Git, versionamento e publica\347\343o cont\355nua.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 190.8898 cm
+Q
+q
+1 0 0 1 78 162.8898 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 18 Tm /F1 10 Tf 14 TL .5 0 Td (Automa\347\343o de rotinas de opera\347\343o e de conte\372do com agentes de IA, medindo custo e) Tj T* -0.5 0 Td (resultado de cada execu\347\343o.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 159.8898 cm
+Q
+q
+1 0 0 1 78 145.8898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Documenta\347\343o t\351cnica publicada em portugu\352s e ingl\352s, no site e no dev.to.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 142.8898 cm
+Q
+q
+1 0 0 1 78 114.4898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Supermercado Teixeira Coelho \227 T\351cnico de Suporte e Operacional) Tj /F1 10 Tf  T* (03/2020 \226 05/2024) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 107.4898 cm
+Q
+q
+1 0 0 1 78 79.48976 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 18 Tm /F1 10 Tf 14 TL .5 0 Td -0.084026 Tw (Suporte de primeiro n\355vel ao sistema de gest\343o, na frente de caixa e na retaguarda, garantindo a) Tj T* 0 Tw -0.5 0 Td (continuidade da opera\347\343o.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 76.48976 cm
+Q
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+15 0 0 13.5 77.4 805.8898 cm
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d Do
+Q
+q
+62.06667 0 0 9.8 94.1 807.0898 cm
+/FormXob.097985cfe0e109531c4985bcf3858e1f Do
+Q
+BT
+/F1-0 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 478.6596 801.8898 Tm
+(Curr\355culo) Tj
+T*
+ET
+q
+15 0 0 13.5 71.7 50.98976 cm
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d Do
+Q
+q
+62.06667 0 0 9.8 88.4 52.18976 cm
+/FormXob.097985cfe0e109531c4985bcf3858e1f Do
+Q
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 506.5956 53.88976 Tm
+(1\0572) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 15
+/SMask 7 0 R
+/Subtype /Image
+/Type /XObject
+/Width 95
+/Length 471
+>>
+stream
+Gb"/$cV)/0(sQoh7W78s,[NT8`i^A\GS!oOX&M.fX[C:IJD`]2PQ/5YdX4d<Y9E3]?LeqcVTnklp[\0G&-iFFL]9Xo&!,$@X[q]FIBh%Xpg),G6G-j>4sfCis)L06SNlL;;TVD<E#BJk*\7DFdZ4%7^G)Rl>2tp8jfCtA?r"(bKunO9/rHPW-Hps1haR`q`h+C:Jd?6>-VU+=M[r`hHeGjiOR(SZa;&ZNb;pT,L@GYsi_MfVhd/4QI<[:Ai%`NG8u`W)I!Bb-We*@r`TOaB:7AqYeZs%,`RWm1*?!+9ET-&!QI64rMq_6Pad)-(@qj^2Fd1ln!e3ll.G2,09mbR<ajJ6Te/%81*6nW^d<Q#Satr<H^6Ud@b^,V?+Z%]i*+O#2kd%=':=VF<54:"(/C@n/$I`UIhM'b%@hU.+(C=;hRQ9b#mP&]=fg^&0Y8)$,Mj1B%c+m[4#6tJ=48]/.$gC.~>
+endstream
+endobj
+7 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Decode [ 0 1 ]
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 15
+/Subtype /Image
+/Type /XObject
+/Width 95
+/Length 285
+>>
+stream
+Gb"/!_%":)$tKJf+=m(k\qeg]49u>A"djfD1'%b.$b/)SUf!@IrNr3l!=7R'B,b?`ph,9W@EMA6KL:4LB/h(obQ<O&jAg:]P7Jbn@GH^EHmF"U5>IG[4%&VeW7?;G4aA5i&-[\1lB<EB.1ps52@5gRcJGqbii;q?pppLf`FqK*;qrQ--l<(n&JQAn5Y8:5'$\;0Xo#=(:Yc-EF^@hUFAko*X5b-'-bG`6mTWZ][eJJ>o,)W*6E.X/>3h\$mWou++n_ep<F1/MXICl`5N[hF`#B\bY=S~>
+endstream
+endobj
+8 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 27
+/SMask 9 0 R
+/Subtype /Image
+/Type /XObject
+/Width 30
+/Length 962
+>>
+stream
+Gau1,$]g`A&BElUi%?Y`T;SoOS9TqBa'j5V[7ujRo_X-2c2p1Vf0js3s%I#Bnmcj1*GVuc?'8`OAY^(71ScjPT!*,RG!(u.VS@!EEO2n-RtZ?t7<E;dIIm<'X8?Gncm;!aaN1("+=$J@S`b+"UJYI_QZca39KQ/I=#N*(mlY6K^HksPaM'rHPm4C>`aoS@(B%%ifaV*`JBW"<h[Q*IB=7W@;@VCK\Q7=oPga\2_h@6cjH"BE^%G1OchoFXG`-AM9N+WKUJ2;%Op#1rd6"B0jF^'GJ%g\lA5bloeOphZ8EilBadq[H"HSb]<+O'NpQi+de/7JH;k<A"]@UR]1UA?6!&)E;ebO`H]QcN#2%hFj5h%ihh?>FZPt,lWH#Ic>rWO2)9J]@?6rWTK30J"kQ+=LF<LqIsX;U)*Zu`!Y36U)*D.qM"14PIfIc`W-mYSGR7j\I>V'(s:bB\4/Jl(VFN#`1D*7H@q^ZNbpmL6P'_]@:cGQFe@q7OUoC:hr)SJ0I(^Yh3*7l`q4C//+X0pEDhgN;*g-&CV3afJMR_?DqWh=\JB)B7;69pb])a!=%=TOikM[Co/b]k'EthAt[80?CuETOG2hA?'eSlY2;PLD.T]-8os;mj`WV&;9r&(&rA]hA%>nQW9+iWIg'4$/\j5\?Pn_H`&:)V=R*[(LoC)O2<h"8Wu>)mWi<0Hcu$dH!.W?L.kY,.\Eg9h(\M7><@4bDMN`!"6=nsSuf6C3$gl?mZIGE05pC2*DHdT&sJiVUIWGQ)tWio45P'MjG1pFpg=9;4q/M\00AOr^Q@362flp7#B[QuUp(5:P\N%q9NO6lM*lSfPSI',Por"8$W.daklgjq,f%cZ,[pRhp-G]cP-8oW8>:C5l>Y#/XYHbnMWKRQm\Z4D[u=Q!c4M9;'CS8R+(J;^5>A1q&&V"lnE_r*SDhCu3r4KO^TrKUcX]0BF]nMLcl&T5~>
+endstream
+endobj
+9 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Decode [ 0 1 ]
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 27
+/Subtype /Image
+/Type /XObject
+/Width 30
+/Length 481
+>>
+stream
+Gar7X;8roQ=BK<UhS'/K[uo=PDJp(pSabn5T&"@qB.nl8qQqM`s"ssL#-;50$)1uKRH"o#Qu!D!5Tip\&P\SYbE$eIZ[_oL#mB-!RF#Kt^]3!.2YYOa$YReW4WT&Yp@g:j(1q/j-?OTCZ@#>>9T0gk!m5B^b2+et0?@51VACZXp]"SCn79?fqrdplh7Ij",3`\/:%I7NAH21H1XP4CJo%Ni+H'[6Cib)3fASFYokOnrFd*+_XB<Ais15`,et;E6XB9!N7G!"gqtK!'2J*^UZ4'DN?5)HX3H?o2]&\UN@`AH_1CH!p(,7[(0o!L(VpJq81%NlL2fIQeGmabic="^?r`INkU4*$@/$ja*4c:JQoOIHW[$Zi^$>9;4LILq"S@LH0mX<8Cp@gd>QAH1`R$)p3HMII'K:d(srs-a(Yu?5SAIpEkoD]mDr!*7am+8j.@,U1lRns(^KnIheb^o^@?igtQQk'0Dau3B~>
+endstream
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/XObject <<
+/FormXob.097985cfe0e109531c4985bcf3858e1f 15 0 R
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d 17 0 R
+>>
+/Font <<
+/F1 10 0 R
+/F1-0 19 0 R
+/F2 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 7379
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 743.8898 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 18 Tm /F1 10 Tf 14 TL .5 0 Td (Resolu\347\343o de incidentes no ERP, com disponibilidade da frente de caixa e da retaguarda) Tj T* -0.5 0 Td (durante o expediente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 740.8898 cm
+Q
+q
+1 0 0 1 78 726.8898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Cadastro completo dos produtos no banco de dados da empresa, o que encurtou a fila do caixa.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 723.8898 cm
+Q
+q
+1 0 0 1 78 695.4898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Companhia Brasileira de Distribui\347\343o \(Extra Itaim\) \227 Conferente e L\355der de Fluxo) Tj /F1 10 Tf  T* (03/2009 \226 05/2018) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 688.4898 cm
+Q
+q
+1 0 0 1 78 674.4898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Confer\352ncia e controle de estoque, com acuracidade no recebimento e no despacho.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 671.4898 cm
+Q
+q
+1 0 0 1 78 657.4898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Lideran\347a de equipes operacionais, organiza\347\343o do dep\363sito e aplica\347\343o de FIFO.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 654.4898 cm
+Q
+q
+1 0 0 1 78 640.4898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Atendimento direto ao cliente na solu\347\343o de problemas de entrega e na reposi\347\343o.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 637.4898 cm
+Q
+q
+1 0 0 1 78 609.4898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Forma\347\343o) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 604.4898 cm
+Q
+q
+1 0 0 1 78 576.0898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Ci\352ncia da Computa\347\343o \(bacharelado\) \227 UNOPAR, grupo Pit\341goras Anhanguera) Tj /F1 10 Tf  T* (em andamento) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 569.0898 cm
+Q
+q
+1 0 0 1 78 540.6898 cm
+q
+BT 1 0 0 1 0 18.4 Tm 14.2 TL /F2 10 Tf .133333 .133333 .133333 rg (Programador Full Stack \227 DevClub) Tj /F1 10 Tf  T* (em andamento) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 533.6898 cm
+Q
+q
+1 0 0 1 78 505.6898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Compet\352ncias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 500.6898 cm
+Q
+q
+1 0 0 1 78 486.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 4 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Front-end:) Tj /F1 10 Tf ( React, Vite, JavaScript ES6+, HTML5, CSS3) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 483.6898 cm
+Q
+q
+1 0 0 1 78 469.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 4 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Back-end:) Tj /F1 10 Tf ( Node.js, Express, APIs REST, autentica\347\343o com JWT, Prisma, Sequelize) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 466.6898 cm
+Q
+q
+1 0 0 1 78 452.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 4 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Bancos de dados:) Tj /F1 10 Tf ( PostgreSQL, MongoDB) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 449.6898 cm
+Q
+q
+1 0 0 1 78 421.6898 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 18 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Dados e IA:) Tj /F1 10 Tf ( Python, APIs de LLM, chamada de ferramentas, automa\347\343o com agentes, gera\347\343o) Tj T* -0.5 0 Td (de imagem por API) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 418.6898 cm
+Q
+q
+1 0 0 1 78 404.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 4 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Infraestrutura:) Tj /F1 10 Tf ( Google Cloud, Linux, nginx, TLS, systemd, deploy cont\355nuo) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 401.6898 cm
+Q
+q
+1 0 0 1 78 387.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+BT 1 0 0 1 11 4 Tm .5 0 Td 14 TL /F2 10 Tf .133333 .133333 .133333 rg (Ferramentas:) Tj /F1 10 Tf ( Git, GitHub, Vercel, ClickUp) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 384.6898 cm
+Q
+q
+1 0 0 1 78 356.6898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Certifica\347\365es) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 351.6898 cm
+Q
+q
+1 0 0 1 78 323.6898 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 18 Tm /F1 10 Tf 14 TL .5 0 Td (Google Cloud Computing Foundations: BigQuery, Computa\347\343o em Nuvem, IA e Machine) Tj T* -0.5 0 Td (Learning, no perfil Credly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 320.6898 cm
+Q
+q
+1 0 0 1 78 306.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Google Arcade Facilitator.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 303.6898 cm
+Q
+q
+1 0 0 1 78 289.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Excel do B\341sico ao Avan\347ado, BraSTEC, 2025.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 286.6898 cm
+Q
+q
+1 0 0 1 78 272.6898 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 11 4 Tm /F1 10 Tf 14 TL .5 0 Td (Auxiliar Administrativo, BraSTEC, 2025.) Tj T* -0.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 269.6898 cm
+Q
+q
+1 0 0 1 78 241.6898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Escritos t\351cnicos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.6898 cm
+Q
+q
+1 0 0 1 78 194.0898 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 32.6 Tm /F1 10 Tf 14.2 TL .252542 Tw (Artigos publicados no dev.to, em ingl\352s, sobre precis\343o de n\372mero em JSON, verifica\347\343o de asset) Tj T* 0 Tw 2.161706 Tw (em produ\347\343o, falha silenciosa de rotina de sincroniza\347\343o e o limite de modelo de vis\343o para) Tj T* 0 Tw (conferir layout. Os textos est\343o em dev.to/jonasfilhodev.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 187.0898 cm
+Q
+q
+1 0 0 1 78 159.0898 cm
+q
+.121569 .219608 .392157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Idiomas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 154.0898 cm
+Q
+q
+1 0 0 1 78 139.8898 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4.2 Tm /F1 10 Tf 14.2 TL (Portugu\352s nativo. Ingl\352s intermedi\341rio, com leitura t\351cnica e artigos escritos no idioma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 132.8898 cm
+Q
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+15 0 0 13.5 77.4 805.8898 cm
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d Do
+Q
+q
+62.06667 0 0 9.8 94.1 807.0898 cm
+/FormXob.097985cfe0e109531c4985bcf3858e1f Do
+Q
+BT
+/F1-0 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 478.6596 801.8898 Tm
+(Curr\355culo) Tj
+T*
+ET
+q
+15 0 0 13.5 71.7 50.98976 cm
+/FormXob.0d7898339483b4f6e7a9c23c211e5e8d Do
+Q
+q
+62.06667 0 0 9.8 88.4 52.18976 cm
+/FormXob.097985cfe0e109531c4985bcf3858e1f Do
+Q
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 506.5956 53.88976 Tm
+(2\0572) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+15 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 15
+/SMask 16 0 R
+/Subtype /Image
+/Type /XObject
+/Width 95
+/Length 471
+>>
+stream
+Gb"/$cV)/0(sQoh7W78s,[NT8`i^A\GS!oOX&M.fX[C:IJD`]2PQ/5YdX4d<Y9E3]?LeqcVTnklp[\0G&-iFFL]9Xo&!,$@X[q]FIBh%Xpg),G6G-j>4sfCis)L06SNlL;;TVD<E#BJk*\7DFdZ4%7^G)Rl>2tp8jfCtA?r"(bKunO9/rHPW-Hps1haR`q`h+C:Jd?6>-VU+=M[r`hHeGjiOR(SZa;&ZNb;pT,L@GYsi_MfVhd/4QI<[:Ai%`NG8u`W)I!Bb-We*@r`TOaB:7AqYeZs%,`RWm1*?!+9ET-&!QI64rMq_6Pad)-(@qj^2Fd1ln!e3ll.G2,09mbR<ajJ6Te/%81*6nW^d<Q#Satr<H^6Ud@b^,V?+Z%]i*+O#2kd%=':=VF<54:"(/C@n/$I`UIhM'b%@hU.+(C=;hRQ9b#mP&]=fg^&0Y8)$,Mj1B%c+m[4#6tJ=48]/.$gC.~>
+endstream
+endobj
+16 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Decode [ 0 1 ]
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 15
+/Subtype /Image
+/Type /XObject
+/Width 95
+/Length 285
+>>
+stream
+Gb"/!_%":)$tKJf+=m(k\qeg]49u>A"djfD1'%b.$b/)SUf!@IrNr3l!=7R'B,b?`ph,9W@EMA6KL:4LB/h(obQ<O&jAg:]P7Jbn@GH^EHmF"U5>IG[4%&VeW7?;G4aA5i&-[\1lB<EB.1ps52@5gRcJGqbii;q?pppLf`FqK*;qrQ--l<(n&JQAn5Y8:5'$\;0Xo#=(:Yc-EF^@hUFAko*X5b-'-bG`6mTWZ][eJJ>o,)W*6E.X/>3h\$mWou++n_ep<F1/MXICl`5N[hF`#B\bY=S~>
+endstream
+endobj
+17 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceRGB
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 27
+/SMask 18 0 R
+/Subtype /Image
+/Type /XObject
+/Width 30
+/Length 962
+>>
+stream
+Gau1,$]g`A&BElUi%?Y`T;SoOS9TqBa'j5V[7ujRo_X-2c2p1Vf0js3s%I#Bnmcj1*GVuc?'8`OAY^(71ScjPT!*,RG!(u.VS@!EEO2n-RtZ?t7<E;dIIm<'X8?Gncm;!aaN1("+=$J@S`b+"UJYI_QZca39KQ/I=#N*(mlY6K^HksPaM'rHPm4C>`aoS@(B%%ifaV*`JBW"<h[Q*IB=7W@;@VCK\Q7=oPga\2_h@6cjH"BE^%G1OchoFXG`-AM9N+WKUJ2;%Op#1rd6"B0jF^'GJ%g\lA5bloeOphZ8EilBadq[H"HSb]<+O'NpQi+de/7JH;k<A"]@UR]1UA?6!&)E;ebO`H]QcN#2%hFj5h%ihh?>FZPt,lWH#Ic>rWO2)9J]@?6rWTK30J"kQ+=LF<LqIsX;U)*Zu`!Y36U)*D.qM"14PIfIc`W-mYSGR7j\I>V'(s:bB\4/Jl(VFN#`1D*7H@q^ZNbpmL6P'_]@:cGQFe@q7OUoC:hr)SJ0I(^Yh3*7l`q4C//+X0pEDhgN;*g-&CV3afJMR_?DqWh=\JB)B7;69pb])a!=%=TOikM[Co/b]k'EthAt[80?CuETOG2hA?'eSlY2;PLD.T]-8os;mj`WV&;9r&(&rA]hA%>nQW9+iWIg'4$/\j5\?Pn_H`&:)V=R*[(LoC)O2<h"8Wu>)mWi<0Hcu$dH!.W?L.kY,.\Eg9h(\M7><@4bDMN`!"6=nsSuf6C3$gl?mZIGE05pC2*DHdT&sJiVUIWGQ)tWio45P'MjG1pFpg=9;4q/M\00AOr^Q@362flp7#B[QuUp(5:P\N%q9NO6lM*lSfPSI',Por"8$W.daklgjq,f%cZ,[pRhp-G]cP-8oW8>:C5l>Y#/XYHbnMWKRQm\Z4D[u=Q!c4M9;'CS8R+(J;^5>A1q&&V"lnE_r*SDhCu3r4KO^TrKUcX]0BF]nMLcl&T5~>
+endstream
+endobj
+18 0 obj
+<<
+/BitsPerComponent 8
+/ColorSpace /DeviceGray
+/Decode [ 0 1 ]
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Height 27
+/Subtype /Image
+/Type /XObject
+/Width 30
+/Length 481
+>>
+stream
+Gar7X;8roQ=BK<UhS'/K[uo=PDJp(pSabn5T&"@qB.nl8qQqM`s"ssL#-;50$)1uKRH"o#Qu!D!5Tip\&P\SYbE$eIZ[_oL#mB-!RF#Kt^]3!.2YYOa$YReW4WT&Yp@g:j(1q/j-?OTCZ@#>>9T0gk!m5B^b2+et0?@51VACZXp]"SCn79?fqrdplh7Ij",3`\/:%I7NAH21H1XP4CJo%Ni+H'[6Cib)3fASFYokOnrFd*+_XB<Ais15`,et;E6XB9!N7G!"gqtK!'2J*^UZ4'DN?5)HX3H?o2]&\UN@`AH_1CH!p(,7[(0o!L(VpJq81%NlL2fIQeGmabic="^?r`INkU4*$@/$ja*4c:JQoOIHW[$Zi^$>9;4LILq"S@LH0mX<8Cp@gd>QAH1`R$)p3HMII'K:d(srs-a(Yu?5SAIpEkoD]mDr!*7am+8j.@,U1lRns(^KnIheb^o^@?igtQQk'0Dau3B~>
+endstream
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 20
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000120 00000 n 
+0000000169 00000 n 
+0000000526 00000 n 
+0000007147 00000 n 
+0000007817 00000 n 
+0000008305 00000 n 
+0000009466 00000 n 
+0000010150 00000 n 
+0000010258 00000 n 
+0000010366 00000 n 
+0000010479 00000 n 
+0000010840 00000 n 
+0000018272 00000 n 
+0000018944 00000 n 
+0000019433 00000 n 
+0000020596 00000 n 
+0000021281 00000 n 
+trailer
+<<
+/Size 20
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+21389
+%%EOF
