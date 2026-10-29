@@ -22,7 +22,6 @@ export default function Sobre() {
           <div className={styles.photo}>
             <img src="/img/jonas.jpg" alt="Jonas Filho" width="1080" height="1080" />
           </div>
-          <p className={styles.photoNote}>Foto de capa.</p>
         </div>
 
         <div className={styles.text}>

@@ -1,0 +1,5 @@
+/* A seção de IA usa o mesmo card dos projetos e muda só o fundo,
+   para separar a leitura sem quebrar a identidade visual. */
+.section {
+  background: var(--paper-2);
+}

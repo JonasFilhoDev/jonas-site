@@ -6,6 +6,7 @@ export function waLink(msg) {
 
 export const links = [
   { label: 'Projetos', href: '#projetos' },
+  { label: 'IA', href: '#ia' },
   { label: 'Como trabalho', href: '#processo' },
   { label: 'Sobre', href: '#sobre' },
   { label: 'Contato', href: '#contato' },
