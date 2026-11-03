@@ -57,9 +57,7 @@ export default function Nav() {
         </ul>
 
         <div className={styles.acoes}>
-          <div className={styles.langDesktop}>
-            <LangSwitcher />
-          </div>
+          <LangSwitcher />
 
           <a
             className={styles.cta}
@@ -97,7 +95,6 @@ export default function Nav() {
         </ul>
 
         <div className={styles.painelRodape}>
-          <LangSwitcher variante="painel" />
           <a
             className={styles.painelCta}
             href={waLink(t.waMsg)}
