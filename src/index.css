@@ -12,11 +12,18 @@
   /* acento único: terracota */
   --accent: #c2503c;
   --accent-soft: rgba(194, 80, 60, 0.1);
+  /* variações do acento para texto pequeno, onde o terracota puro não passa */
+  --accent-text: #a8432f; /* sobre papel e card, 5,35:1 */
+  --accent-on-dark: #e88a74; /* sobre marinho, 6,36:1 */
 
   /* texto */
   --text: #14202e;
   --muted: #5d6b78;
   --line: #d9d3c6;
+
+  /* foco de teclado: anel escuro com halo claro, visível nos dois fundos */
+  --focus: #0c223b;
+  --focus-halo: #fbfaf6;
 
   --maxw: 1120px;
   --radius: 4px;
@@ -60,6 +67,16 @@ a {
 button {
   font: inherit;
   cursor: pointer;
+}
+
+/* Foco de teclado explícito.
+   O anel marinho aparece sobre papel e sobre o card; o halo claro por fora
+   separa o anel do fundo escuro do hero. Sem currentColor, que fica invisível
+   no cabeçalho (papel sobre papel). */
+:where(a, button, [role='button'], summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--focus-halo);
 }
 
 ::selection {

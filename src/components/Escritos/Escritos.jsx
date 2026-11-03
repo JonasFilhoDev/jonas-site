@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Icon } from '../Icon'
+import { useLang } from '../../i18n/Lang'
 import styles from './Escritos.module.css'
 
 const USUARIO_DEVTO = 'jonasfilhodev'
@@ -34,15 +35,9 @@ const ARTIGOS = [
   },
 ]
 
-const MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
-
-function dataCurta(iso) {
-  const d = new Date(iso)
-  if (Number.isNaN(d.getTime())) return ''
-  return `${d.getUTCDate()} ${MESES[d.getUTCMonth()]} ${d.getUTCFullYear()}`
-}
-
 export default function Escritos() {
+  const { t } = useLang()
+  const c = t.escritos
   const [artigos, setArtigos] = useState(ARTIGOS)
 
   useEffect(() => {
@@ -58,19 +53,19 @@ export default function Escritos() {
     }
   }, [])
 
+  function dataCurta(iso) {
+    const d = new Date(iso)
+    if (Number.isNaN(d.getTime())) return ''
+    return `${d.getUTCDate()} ${c.months[d.getUTCMonth()]} ${d.getUTCFullYear()}`
+  }
+
   return (
     <section className={styles.section} id="escritos">
       <div className={styles.inner}>
         <header className={styles.head}>
-          <p className={styles.kicker}>Escritos técnicos</p>
-          <h2 className={styles.title}>
-            O que quebrou enquanto eu construía, escrito no detalhe
-          </h2>
-          <p className={styles.sub}>
-            Publico no dev.to, em inglês, o problema que apareceu e como
-            descobri a causa. É o mesmo tipo de conferência que faço antes de
-            publicar qualquer coisa: medir, não supor.
-          </p>
+          <p className={styles.kicker}>{c.kicker}</p>
+          <h2 className={styles.title}>{c.title}</h2>
+          <p className={styles.sub}>{c.sub}</p>
         </header>
 
         <ul className={styles.list}>
@@ -92,8 +87,8 @@ export default function Escritos() {
           rel="noreferrer"
         >
           <span>
-            <em>Todos os artigos no dev.to</em>
-            Escrevo sobre o que estou construindo e sobre o que quebra no caminho.
+            <em>{c.moreEm}</em>
+            {c.moreText}
           </span>
           <Icon name="arrow" size={18} />
         </a>

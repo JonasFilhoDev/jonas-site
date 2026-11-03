@@ -1,0 +1,41 @@
+.wrap {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.opcao {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 0.5rem;
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  transition: background 0.15s, color 0.15s;
+}
+
+.opcao:hover {
+  background: var(--paper-2);
+  color: var(--ink);
+}
+
+.opcao[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.noPainel {
+  width: 100%;
+}
+
+.noPainel .opcao {
+  flex: 1;
+  min-height: 48px;
+}

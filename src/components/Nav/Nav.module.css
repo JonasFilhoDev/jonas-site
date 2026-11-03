@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(244, 242, 236, 0.9);
+  background: rgba(244, 242, 236, 0.94);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
@@ -13,7 +13,7 @@
   padding: 0.9rem 1.5rem;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .brand {
@@ -56,7 +56,9 @@
 .links a {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 44px;
+  min-width: 44px;
   padding: 0 0.85rem;
   border-radius: var(--radius);
   font-size: 0.9rem;
@@ -68,6 +70,17 @@
 .links a:hover {
   color: var(--ink);
   background: var(--paper-2);
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.langDesktop {
+  display: block;
 }
 
 .cta {
@@ -97,21 +110,102 @@
   transform: translateX(3px);
 }
 
+/* botão do menu no celular */
+.burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  background: var(--card);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.burger:hover {
+  background: var(--paper-2);
+}
+
+/* painel que abre no celular */
+.painel {
+  border-top: 1px solid var(--line);
+  background: var(--card);
+  padding: 0.35rem 1.25rem 1.15rem;
+}
+
+.painelLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.painelLinks a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.painelLinks li:last-child a {
+  border-bottom: 0;
+}
+
+.painelRodape {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.painelCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 48px;
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+@media (min-width: 861px) {
+  .painel {
+    display: none;
+  }
+}
+
 @media (max-width: 860px) {
   .links {
     display: none;
   }
+  .burger {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav {
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+  }
   .cta {
-    margin-left: auto;
+    display: none;
+  }
+  .langDesktop {
+    display: none;
   }
 }
 
 @media (max-width: 420px) {
   .brandText em {
     display: none;
-  }
-  .cta {
-    padding: 0 0.9rem;
-    font-size: 0.84rem;
   }
 }

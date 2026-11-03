@@ -19,7 +19,7 @@
   font-size: 0.76rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
   margin-bottom: 0.9rem;
 }
 
@@ -46,7 +46,7 @@
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.78rem;
-  color: var(--accent);
+  color: var(--accent-text);
   letter-spacing: 0.1em;
   margin-bottom: 1.1rem;
 }

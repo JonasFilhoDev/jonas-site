@@ -1,80 +1,43 @@
 import { Icon } from '../Icon'
+import { useLang } from '../../i18n/Lang'
 import { waLink } from '../../data'
 import styles from './Contato.module.css'
 
-const canais = [
-  {
-    icon: 'whatsapp',
-    nome: 'WhatsApp',
-    valor: 'Responder no mesmo dia',
-    href: waLink(
-      'Olá Jonas, vi seu portfólio e gostaria de conversar sobre uma oportunidade.',
-    ),
-    externo: true,
-  },
-  {
-    icon: 'mail',
-    nome: 'E-mail',
-    valor: 'jonasfilho1985@gmail.com',
-    href: 'mailto:jonasfilho1985@gmail.com',
-    externo: false,
-  },
-  {
-    icon: 'linkedin',
-    nome: 'LinkedIn',
-    valor: 'jonasfilhodev',
-    href: 'https://www.linkedin.com/in/jonasfilhodev/',
-    externo: true,
-  },
-  {
-    icon: 'download',
-    nome: 'Currículo',
-    valor: 'PDF, 2 páginas',
-    href: '/cv-jonas-filho.pdf',
-    externo: false,
-    download: 'cv-jonas-filho.pdf',
-  },
-  {
-    icon: 'github',
-    nome: 'GitHub',
-    valor: 'JonasFilhoDev',
-    href: 'https://github.com/JonasFilhoDev',
-    externo: true,
-  },
-]
-
 export default function Contato() {
+  const { t } = useLang()
+  const c = t.contato
+
+  const canais = c.channels.map((ch) => ({
+    ...ch,
+    href: ch.href === 'WA' ? waLink(t.waMsg) : ch.href,
+  }))
+
   return (
     <section className={styles.section} id="contato">
       <div className={styles.inner}>
-        <p className={styles.kicker}>Contato</p>
-        <h2 className={styles.title}>
-          Se a sua vaga ou projeto precisa de alguém que entrega o que está no ar, vamos conversar.
-        </h2>
-        <p className={styles.sub}>
-          Prefiro WhatsApp, mas qualquer canal funciona. Se você tem um
-          problema técnico em mente, escreva o que ele é em uma frase. Para mim
-          vale mais do que um currículo.
-        </p>
+        <p className={styles.kicker}>{c.kicker}</p>
+        <h2 className={styles.title}>{c.title}</h2>
+        <p className={styles.sub}>{c.sub}</p>
 
         <ul className={styles.channels}>
-          {canais.map((c) => (
-            <li key={c.nome}>
+          {canais.map((ch) => (
+            <li key={ch.nome}>
               <a
-                href={c.href}
-                target={c.externo ? '_blank' : undefined}
+                href={ch.href}
+                target={ch.externo ? '_blank' : undefined}
                 rel="noreferrer"
-                download={c.download}
+                download={ch.download}
               >
                 <span className={styles.chIcon}>
-                  <Icon name={c.icon} size={19} />
+                  <Icon name={ch.icon} size={19} />
                 </span>
                 <span className={styles.chText}>
-                  <strong>{c.nome}</strong>
-                  <em>{c.valor}</em>
+                  <strong>{ch.nome}</strong>
+                  <em>{ch.valor}</em>
                 </span>
-                {c.externo && <Icon name="external" size={16} />}
+                {ch.externo && <Icon name="external" size={16} />}
               </a>
+              {ch.notaIdioma && <p className={styles.notaIdioma}>{ch.notaIdioma}</p>}
             </li>
           ))}
         </ul>

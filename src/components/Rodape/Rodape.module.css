@@ -1,6 +1,6 @@
 .foot {
   background: var(--ink);
-  color: rgba(244, 242, 236, 0.45);
+  color: rgba(244, 242, 236, 0.72);
   border-top: 1px solid rgba(244, 242, 236, 0.12);
 }
 
@@ -30,7 +30,7 @@
 }
 
 .top:hover {
-  color: var(--accent);
+  color: var(--accent-on-dark);
 }
 
 @media (max-width: 600px) {
