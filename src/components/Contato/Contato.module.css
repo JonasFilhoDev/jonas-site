@@ -14,7 +14,7 @@
   font-size: 0.76rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-on-dark);
   margin-bottom: 0.9rem;
 }
 
@@ -60,7 +60,7 @@
   height: 40px;
   border-radius: var(--radius);
   background: rgba(244, 242, 236, 0.08);
-  color: var(--accent);
+  color: var(--accent-on-dark);
   flex-shrink: 0;
 }
 
@@ -78,15 +78,22 @@
 .chText em {
   font-style: normal;
   font-size: 0.78rem;
-  color: rgba(244, 242, 236, 0.55);
+  color: rgba(244, 242, 236, 0.68);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
+.notaIdioma {
+  margin-top: 0.5rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: rgba(244, 242, 236, 0.72);
+}
+
 .channels a > svg {
   margin-left: auto;
-  color: rgba(244, 242, 236, 0.4);
+  color: rgba(244, 242, 236, 0.55);
   flex-shrink: 0;
 }
 

@@ -1,64 +1,60 @@
 import { Icon } from '../Icon'
+import { useLang } from '../../i18n/Lang'
 import { waLink } from '../../data'
 import styles from './Hero.module.css'
 
-const sociais = [
-  { icon: 'github', label: 'GitHub', href: 'https://github.com/JonasFilhoDev' },
-  {
-    icon: 'linkedin',
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/jonasfilhodev/',
-  },
-  { icon: 'mail', label: 'Email', href: 'mailto:jonasfilho1985@gmail.com' },
-  {
-    icon: 'whatsapp',
-    label: 'WhatsApp',
-    href: waLink(
-      'Olá Jonas, vi seu portfólio e gostaria de conversar sobre uma oportunidade.',
-    ),
-  },
-]
-
 export default function Hero() {
+  const { t } = useLang()
+
+  const sociais = [
+    { icon: 'github', label: 'GitHub', href: 'https://github.com/JonasFilhoDev' },
+    {
+      icon: 'linkedin',
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/jonasfilhodev/',
+    },
+    { icon: 'mail', label: 'Email', href: 'mailto:jonasfilho1985@gmail.com' },
+    {
+      icon: 'whatsapp',
+      label: 'WhatsApp',
+      href: waLink(t.waMsg),
+    },
+  ]
+
   return (
     <section className={styles.hero} id="home">
       <div className={styles.inner}>
         <p className={styles.status}>
           <span className={styles.dot} aria-hidden="true" />
-          disponível para oportunidades e freelas
+          {t.hero.status}
         </p>
 
         <h1 className={styles.title}>
-          Construo sistemas web que
+          {t.hero.titleLine1}
           <br />
-          <span className={styles.mark}>saem do seu ambiente local</span>:
-          <br />
-          API, interface, banco e deploy.
+          <span className={styles.mark}>{t.hero.titleMark}</span>:<br />
+          {t.hero.titleLine3}
         </h1>
 
         <p className={styles.lead}>
-          Sou Jonas Filho, desenvolvedor FullStack. Meu trabalho está em{' '}
-          <a href="#projetos">projetos que rodam no ar</a>, com banco de dados,
-          autenticação e publicação automatizada, em vez de exercícios de
-          curso. Escolhi Node, React e PostgreSQL porque é o que aparece quando
-          a feature precisa funcionar fora do meu computador.
+          {t.hero.leadBefore}
+          <a href="#projetos">{t.hero.leadLink}</a>
+          {t.hero.leadAfter}
         </p>
 
         <div className={styles.actions}>
           <a href="#projetos" className={styles.primary}>
-            Ver os projetos
+            {t.hero.ctaPrimary}
             <Icon name="arrow" size={17} />
           </a>
 
           <a
-            href={waLink(
-              'Olá Jonas, vi seu portfólio e gostaria de conversar sobre uma oportunidade.',
-            )}
+            href={waLink(t.waMsg)}
             target="_blank"
             rel="noreferrer"
             className={styles.secondary}
           >
-            Falar comigo
+            {t.hero.ctaSecondary}
           </a>
         </div>
 

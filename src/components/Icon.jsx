@@ -48,6 +48,19 @@ export function Icon({ name, size = 20 }) {
       </>
     ),
     arrow: <path {...p} d="M5 12h14m-6-6 6 6-6 6" />,
+    menu: (
+      <>
+        <path {...p} d="M4 7h16" />
+        <path {...p} d="M4 12h16" />
+        <path {...p} d="M4 17h16" />
+      </>
+    ),
+    close: (
+      <>
+        <path {...p} d="M6 6l12 12" />
+        <path {...p} d="M18 6 6 18" />
+      </>
+    ),
     download: (
       <>
         <path {...p} d="M12 3v12m-5-5 5 5 5-5" />
