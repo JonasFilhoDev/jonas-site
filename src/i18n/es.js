@@ -4,7 +4,7 @@ export const es = {
   label: 'Español',
   short: 'ES',
   meta: {
-    title: '🐴 Jonas Filho | Desarrollador FullStack, React, Node y PostgreSQL',
+    title: 'Jonas Filho | Desarrollador FullStack, React, Node y PostgreSQL',
     description:
       'Desarrollador FullStack construyendo sistemas que funcionan de verdad: API, interfaz, base de datos y deploy.',
   },
@@ -132,11 +132,11 @@ export const es = {
       {
         num: '01',
         nome: 'Agente de automatización',
-        kicker: 'agente con herramientas · 22 rutinas en línea',
+        kicker: 'agente con herramientas · 25 rutinas en línea',
         problema:
           'Buena parte de lo que hacía a mano tenía siempre la misma forma: leer una fuente, decidir con algún criterio, ejecutar y registrar lo que pasó. Un script común no alcanzaba, porque la decisión cambia de caso a caso y la fuente no siempre ofrece API.',
         solucao:
-          'Un agente que corre en su propia VPS, con herramientas de archivo, terminal, navegador y APIs externas, memoria entre sesiones y procedimientos cargados según la tarea. Hoy son 22 rutinas agendadas, entre publicación en cuatro horarios, vigilancia de fuente externa, informe semanal y backup. Cada ejecución pasa por el portal interno, que ya registró 179 publicaciones.',
+          'Un agente que corre en su propia VPS, con herramientas de archivo, terminal, navegador y APIs externas, memoria entre sesiones y procedimientos cargados según la tarea. Hoy son 25 rutinas agendadas, entre publicación en cuatro horarios, vigilancia de fuente externa, informe semanal y backup. Cada ejecución pasa por el portal interno, que ya registró 217 publicaciones.',
         decisoes: [
           'Procedimiento en archivo en lugar de un prompt gigante: cada tarea carga solo la instrucción que importa, lo que reduce error y costo por ejecución',
           'Una herramienta con poder de escritura pide permiso: publicar, gastar y borrar siguen exigiendo aprobación explícita',
