@@ -6,3 +6,4 @@ dist
 
 # capturas de revisao local, nao vao para o repositorio
 preview/
+dist-ssr

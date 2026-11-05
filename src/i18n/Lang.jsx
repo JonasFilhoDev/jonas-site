@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { pt } from './pt'
 import { en } from './en'
 import { es } from './es'
@@ -7,8 +7,20 @@ const DICTS = { pt, en, es }
 const ORDEM = ['pt', 'en', 'es']
 const CHAVE = 'jf-lang'
 
-function idiomaInicial() {
+/** Idioma declarado no caminho: /en/ e /es/ têm HTML próprio, / é português. */
+export function idiomaDaRota() {
+  if (typeof window === 'undefined') return null
+  const segmento = window.location.pathname.split('/').filter(Boolean)[0]
+  return segmento === 'en' || segmento === 'es' ? segmento : null
+}
+
+/** Mesma ordem no servidor e no cliente: rota, query, preferência salva, navegador. */
+export function resolverIdioma(forcado) {
+  if (forcado && DICTS[forcado]) return forcado
   if (typeof window === 'undefined') return 'pt'
+
+  const naRota = idiomaDaRota()
+  if (naRota) return naRota
 
   const naUrl = new URLSearchParams(window.location.search).get('lang')
   if (naUrl && DICTS[naUrl]) return naUrl
@@ -28,8 +40,8 @@ function idiomaInicial() {
 
 const LangContext = createContext(null)
 
-export function LangProvider({ children }) {
-  const [lang, setLang] = useState(idiomaInicial)
+export function LangProvider({ children, initialLang }) {
+  const [lang, setLang] = useState(() => resolverIdioma(initialLang))
 
   const t = DICTS[lang]
 
@@ -47,9 +59,25 @@ export function LangProvider({ children }) {
     }
   }, [lang, t])
 
+  /* Trocar de idioma troca a URL, para o link ficar compartilhável e indexável. */
+  const trocarIdioma = useCallback((codigo) => {
+    setLang(codigo)
+    if (typeof window === 'undefined' || !DICTS[codigo]) return
+
+    const alvo = codigo === 'pt' ? '/' : `/${codigo}/`
+    const params = new URLSearchParams(window.location.search)
+    params.delete('lang')
+    const busca = params.toString()
+    const destino = alvo + (busca ? `?${busca}` : '') + window.location.hash
+
+    if (window.location.pathname + window.location.search + window.location.hash !== destino) {
+      window.history.replaceState({}, '', destino)
+    }
+  }, [])
+
   const valor = useMemo(
-    () => ({ lang, setLang, t, ordem: ORDEM, dicts: DICTS }),
-    [lang, t],
+    () => ({ lang, setLang: trocarIdioma, t, ordem: ORDEM, dicts: DICTS }),
+    [lang, trocarIdioma, t],
   )
 
   return <LangContext.Provider value={valor}>{children}</LangContext.Provider>
@@ -60,3 +88,5 @@ export function useLang() {
   if (!ctx) throw new Error('useLang precisa estar dentro de LangProvider')
   return ctx
 }
+
+export { DICTS }
