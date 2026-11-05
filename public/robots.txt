@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Site de uma pagina publica, sem area restrita.
-# CSS, JS e imagens ficam liberados de proposito: o Googlebot precisa deles
-# para renderizar a pagina, que e uma aplicacao React.
+# O HTML de cada idioma sai pre-renderizado no build, entao robô que nao executa
+# JavaScript tambem le o conteudo. CSS, JS e imagens seguem liberados.
 
 Sitemap: https://jonasfilho.dev.br/sitemap.xml
