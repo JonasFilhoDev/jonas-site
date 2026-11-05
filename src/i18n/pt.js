@@ -4,7 +4,7 @@ export const pt = {
   label: 'Português',
   short: 'PT',
   meta: {
-    title: '🐴 Jonas Filho | Desenvolvedor FullStack, React, Node e PostgreSQL',
+    title: 'Jonas Filho | Desenvolvedor FullStack, React, Node e PostgreSQL',
     description:
       'Desenvolvedor FullStack construindo sistemas que rodam de verdade: API, interface, banco e deploy.',
   },
@@ -126,11 +126,11 @@ export const pt = {
       {
         num: '01',
         nome: 'Agente de automação',
-        kicker: 'agente com ferramentas · 22 rotinas no ar',
+        kicker: 'agente com ferramentas · 25 rotinas no ar',
         problema:
           'Boa parte do que eu fazia à mão tinha sempre o mesmo formato: ler uma fonte, decidir com algum critério, executar e registrar o que aconteceu. Script comum não dava conta, porque a decisão muda de caso para caso e a fonte nem sempre oferece API.',
         solucao:
-          'Um agente que roda em VPS própria, com ferramentas de arquivo, terminal, navegador e APIs externas, memória entre sessões e procedimentos carregados conforme a tarefa. Hoje são 22 rotinas agendadas, entre publicação em quatro horários, vigilância de fonte externa, relatório semanal e backup. Cada execução passa pelo portal interno, que já registrou 179 publicações.',
+          'Um agente que roda em VPS própria, com ferramentas de arquivo, terminal, navegador e APIs externas, memória entre sessões e procedimentos carregados conforme a tarefa. Hoje são 25 rotinas agendadas, entre publicação em quatro horários, vigilância de fonte externa, relatório semanal e backup. Cada execução passa pelo portal interno, que já registrou 217 publicações.',
         decisoes: [
           'Procedimento em arquivo em vez de um prompt gigante: cada tarefa carrega só a instrução que importa, o que reduz erro e custo por execução',
           'Ferramenta com poder de escrita pede permissão: publicar, gastar e apagar continuam exigindo aprovação explícita',

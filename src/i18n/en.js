@@ -4,7 +4,7 @@ export const en = {
   label: 'English',
   short: 'EN',
   meta: {
-    title: '🐴 Jonas Filho | FullStack Developer, React, Node and PostgreSQL',
+    title: 'Jonas Filho | FullStack Developer, React, Node and PostgreSQL',
     description:
       'FullStack developer building systems that actually run: API, interface, database and deploy.',
   },
@@ -132,11 +132,11 @@ export const en = {
       {
         num: '01',
         nome: 'Automation agent',
-        kicker: 'agent with tools · 22 routines live',
+        kicker: 'agent with tools · 25 routines live',
         problema:
           'Much of what I did by hand always had the same shape: read a source, decide by some criterion, execute and record what happened. A plain script could not handle it, because the decision changes case by case and the source does not always offer an API.',
         solucao:
-          'An agent that runs on its own VPS, with file, terminal, browser and external API tools, memory across sessions and procedures loaded according to the task. Today there are 22 scheduled routines, covering publication at four times of day, monitoring an external source, a weekly report and backups. Every run goes through the internal portal, which has recorded 179 publications.',
+          'An agent that runs on its own VPS, with file, terminal, browser and external API tools, memory across sessions and procedures loaded according to the task. Today there are 25 scheduled routines, covering publication at four times of day, monitoring an external source, a weekly report and backups. Every run goes through the internal portal, which has recorded 217 publications.',
         decisoes: [
           'Procedure in a file instead of one giant prompt: each task loads only the instruction that matters, which cuts error and cost per run',
           'A tool with write power asks for permission: publishing, spending and deleting still require explicit approval',
